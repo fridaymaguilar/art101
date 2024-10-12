@@ -4,8 +4,8 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 5px #ff4c4c;
-    background-color: #a1ff9c;
+    border: solid 20px #565656;
+    background-color: #d8ffd6;
   }
 
 h1 {
@@ -13,13 +13,13 @@ h1 {
   font-size:200%; 
 }
 p{
-  font-family:monospace;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-indent: 20px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #content {
-  background-color: rgb(250, 4, 4);
+  background-color: rgb(255, 226, 188);
   width: 500px;
   min-height: 300px;
   padding: 10px;
