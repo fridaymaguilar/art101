@@ -19,11 +19,11 @@ p{
 }
 
 #content {
-  background-color: rgb(255, 226, 188);
+  background-color: rgb(255, 255, 255);
   width: 500px;
   min-height: 300px;
   padding: 10px;
   margin:10px;
-border: solid 1px #444444;
+border: solid 1px #ff8888;
 Font-size: 20px;
 }
