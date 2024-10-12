@@ -10,5 +10,20 @@
 
 h1 {
   color: rgb(255, 255, 179);
-  font font-family: font-size: border: top: ;;;
+  font-size:200%; 
+}
+p{
+  font-family:monospace;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: burlywood;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin:10px;
+border: solid 1px #444444;
+Font-size: 20px;
 }
