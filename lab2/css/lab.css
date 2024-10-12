@@ -21,9 +21,9 @@ p{
 #content {
   background-color: rgb(255, 255, 255);
   width: 500px;
-  min-height: 300px;
+  min-height: 30px;
   padding: 10px;
-  margin:10px;
-border: solid 1px #ff8888;
-Font-size: 30px;
+  margin:100px;
+border: solid 5px #ff8888;
+Font-size: 30 px;
 }
