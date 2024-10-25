@@ -7,7 +7,7 @@
 // Define Variables 
 make = "Ford"; 
 model = "Explorer";
-color = "Rusty";
+color = "Red";
 year = 1995; 
 
 // calculate 
