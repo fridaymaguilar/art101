@@ -14,10 +14,10 @@ year = 1995;
 age = 2015 - year;
 
 //output 
-document.writeIn("Make:"+ make + "<br>" );
-document.writeIn("Model:"+ model + "<br>");
-document.writeIn("Color"+ color + "<br>");
-document.writeIn("Year"+ year + "<br>");
-document.writeIn("Age"+ age + "years<br>");
+document.write("Make:"+ make + "<br>" );
+document.write("Model:"+ model + "<br>");
+document.write("Color"+ color + "<br>");
+document.write("Year"+ year + "<br>");
+document.write("Age"+ age + "years<br>");
 
 console.log("Here is a message"); 
