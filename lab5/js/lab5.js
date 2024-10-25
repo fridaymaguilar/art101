@@ -6,7 +6,7 @@
 
 // Define Variables 
 make = "Ford"; 
-model = "explorer";
+model = "Explorer";
 color = "Rusty";
 year = 1995; 
 
@@ -14,10 +14,10 @@ year = 1995;
 age = 2015 - year;
 
 //output 
-document.write("Make:"+ make + "<br>" );
-document.write("Model:"+ model + "<br>");
-document.write("Color:"+ color + "<br>");
-document.write("Year:"+ year + "<br>");
-document.write("Age:"+ age + "years<br>");
+document.write("Make: "+ make + "<br>" );
+document.write("Model: "+ model + "<br>");
+document.write("Color: "+ color + "<br>");
+document.write("Year: "+ year + "<br>");
+document.write("Age: "+ age + " years<br>");
 
 console.log("Here is a message"); 
