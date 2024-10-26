@@ -11,7 +11,7 @@ var myTransport = ["Ford Explorer ", "Bike ", "Bus ", "Walking "];
 var myMainRide = {
   make: "Ford ",
   model: "Explorer ",
-  color: "Red ",
+  color: "Red",
   year: 1995,
 
   age : function() {
