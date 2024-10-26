@@ -9,9 +9,9 @@ var myTransport = ["Ford Explorer ", "Bike ", "Bus ", "Walking "];
 
 // Create an object for main ride
 var myMainRide = {
-  make: "Ford",
-  model: "Explorer",
-  color: "Red",
+  make: "Ford ",
+  model: "Explorer ",
+  color: "Red ",
   year: 1995,
 
   age : function() {
