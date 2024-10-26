@@ -5,12 +5,12 @@
 //
 
 // Define Variables
-var myTransport = ["Ford Explorer", " Bike", " Bus", " Walking "];
+var myTransport = ["Ford Explorer", "Bike", "Bus", "Walking "];
 
 // Create an object for main ride
 var myMainRide = {
-  make: "Ford ",
-  model: "Explorer ",
+  make: "Ford",
+  model: "Explorer",
   color: "Red",
   year: 1995,
 
