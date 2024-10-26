@@ -4,24 +4,24 @@
 // lisence: Public Domain 
 //
 
-// Define Variables 
-MyTransprot = ["Ford Explorer","Bike", "Bus", "Walking"];
+// Define Variables
+var myTransport = ["Ford Explorer", "Bike", "Bus", "Walking"];
 
-//create an object for main ride 
-MyMainRide = {
-  make = "Ford",
-  model = "Explorer",
-  color = "Red",
-  year = 1995,
+// Create an object for main ride
+var myMainRide = {
+  make: "Ford",
+  model: "Explorer",
+  color: "Red",
+  year: 1995,
 
-age : fuction() {
+  age : function() {
     return 2022 - this.year;
   }
 }
 
-//output 
+// Output 
 document.write("Kind of transportation I use:", myTransport, "</br>");
-document.write(My Main Ride: <pre>",
-    JSON.stringify(MyMainRide, null,'/t'), "</pre>");
+document.write("My Main Ride: <pre>",
+    JSON.stringify(myMainRide, null,'\t'), "</pre>");
 
-console.log(here is a message)
+console.log("Here is a message") 
