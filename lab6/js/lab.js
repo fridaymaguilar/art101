@@ -23,3 +23,5 @@ age : fuction() {
 document.write("Kind of transportation I use:", myTransport, "</br>");
 document.write(My Main Ride: <pre>",
     JSON.stringify(MyMainRide, null,'/t'), "</pre>");
+
+console.log(here is a message)
