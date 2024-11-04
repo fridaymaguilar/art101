@@ -1,5 +1,4 @@
-// How_to_sew_ 
-??
+// How_to_sew_
 // Author: Frida Aguilar 
 // Date: October 27 2024 
 
@@ -10,11 +9,11 @@
 //Select Thread and Needle
 //Cut the Thread
 //Thread the Needle
-//Knot the thread
-//Prepare Your Fabric
+    //Knot the thread
+    //Prepare Your Fabric
 //Start Sewing 
-//Make Your Stitches
-//Finish Your Stitching
+      //Make Your Stitches
+      //Finish Your Stitching
 // Cut the Thread
 
 
