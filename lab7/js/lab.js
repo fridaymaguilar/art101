@@ -3,7 +3,6 @@
 // Date: November 5 2024 
 
 
-// shuffleArray - take an array and shuffle the contents
 // Thanks to https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
@@ -24,6 +23,7 @@ function shuffleArray(array) {
 
 // given a string, return string in Title Case
 // thanks to https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
+
 function toTitleCase(str) {
     return str.replace(
         /\w\S*/g,
