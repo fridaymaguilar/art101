@@ -54,3 +54,6 @@ function myFunction(param1, param2) {
   
   // let's get this party started
   main();
+
+  console.log(myVariable);
+ 
