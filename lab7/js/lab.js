@@ -33,7 +33,8 @@ function sortUserName() {
     
 }
  
-  // output
+  
+// output
   document.writeln("Oh hey, I've fixed your name: ",
         sortUserName (), "</br>") 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
