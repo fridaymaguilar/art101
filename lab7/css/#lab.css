@@ -1,13 +1,12 @@
 
 
-
 body {
-  background-color: #50808E;
+  background-color: #FFC4EB;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -21,14 +20,14 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  border: solid 1px #F1DEDC;
+  background-color: #FFE4FA;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 1px #F1DEDC;
+  background-color: #FFC4EB;
 }
