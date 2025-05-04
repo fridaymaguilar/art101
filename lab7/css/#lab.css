@@ -1,33 +1,36 @@
 
 
-body {
-  background-color: #FFC4EB;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #F1DEDC;
-  background-color: #FFE4FA;
-}
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #F1DEDC;
-  background-color: #FFC4EB;
+  border: solid 1px #f7a4d8;
+  background-color: #d391ff;
 }
+
+h1 {
+  color: rgb(120,28,124);
+  font-size: 150%;
+}
+
+p {	
+  font-family:"roboto";
+  text-indent :10 px ; 
+  margin-left :5 px ;	
+}
+
+#content{
+  background-color :aliceblue ; 
+  width :500 px ;
+  min-height :300 px ;
+  padding :10 px ;
+  border l0 # = "solid" d391 ff font-size=20
+}
+
+html {
+  cursor: url("img/fix.png"), auto;
+} 
+
+img {
+  transform: translate(5px, 5px);
+} 
+
