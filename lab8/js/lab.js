@@ -1,8 +1,5 @@
-/*
-* Author: Wes Modes <wmodes@csumb.edu>
-* Created: 19 September
-* License: Public Domain
-*/
+// Author: Frida Aguilar 
+// Created: May 8 2025 
 
 function isEven(x){
   return (x % 2 == 0);
