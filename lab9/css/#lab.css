@@ -1,6 +1,6 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+/* Here we can set styles for this lab page that we don't want to affect other pages */
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* The period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
@@ -9,31 +9,32 @@
 }
 
 h1 {
-  color: rgb(120,28,124);
+  color: rgb(120, 28, 124);
   font-size: 150%;
 }
 
-p {	
-  font-family:"roboto";
-  text-indent :10 px ; 
-  margin-left :5 px ;	
+p {
+  font-family: "Roboto", sans-serif;
+  text-indent: 10px;
+  margin-left: 5px;
 }
 
-#content{
-  background-color :rgb(204, 231, 255) ; 
-  width :500 px ;
-  min-height :300 px ;
-  padding :10 px ;
-  border l0 # = "solid" d391 ff font-size=20
+#content {
+  background-color: rgb(204, 231, 255);
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  border: 1px solid #d391ff;
+  font-size: 20px;
 }
 
 html {
   cursor: url("img/fix.png"), auto;
-} 
+}
 
 img {
   transform: translate(5px, 5px);
-} 
+}
 
 .special {
   background-color: lavender;
