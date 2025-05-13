@@ -1,6 +1,9 @@
-// Author: Frida Aguilar 
-// Created: May 8 2025 
+/*
+  lab.js - Uses jQuery to toggle styles on sections
 
+  Author: Frida Aguilar 
+  Date: May 12 2025 
+*/
 function isEven(x){
   return (x % 2 == 0);
 }
