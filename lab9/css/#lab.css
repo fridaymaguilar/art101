@@ -35,3 +35,9 @@ img {
   transform: translate(5px, 5px);
 } 
 
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+}
