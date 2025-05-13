@@ -38,7 +38,7 @@ img {
 
 .special {
   background-color: lavender;
-  border: dotted 50px red;
+  border: 5px dotted red; /* changed from 50px to 5px */
   color: pink;
   font-weight: bold;
 }
