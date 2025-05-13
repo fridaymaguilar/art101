@@ -4,24 +4,27 @@
   Author: Frida Aguilar 
   Date: May 12 2025 
 */
-function isEven(x){
-  return (x % 2 == 0);
-}
+// Add button to the challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
+// Add button to the problems section
+$("#problems").append("<button id='button-problems'>Make Special</button>");
 
-console.log("Is 1 even? ", isEven(1));
-console.log("Is 2 even? ", isEven(2));
+// Add button to the results section
+$("#results").append("<button id='button-results'>Make Special</button>");
 
-array = [100, 81, 4, 16, 42, 144, 10000];
-console.log("My array", array);
-
-var result = array.map(isEven);
-console.log("Test of evenness of array:", result);
-
-var result = array.map(function(x){
-  return x ** 0.5;
+// Add click listener for challenge button
+$("#button-challenge").click(function(){
+  $("#challenge").toggleClass("special");
 });
 
+// Add click listener for problems button
+$("#button-problems").click(function(){
+  $("#problems").toggleClass("special");
+});
 
+// Add click listener for results button
+$("#button-results").click(function(){
+  $("#results").toggleClass("special");
+}); 
 
-console.log("Squareroot of array:", result);
