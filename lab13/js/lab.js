@@ -1,10 +1,7 @@
-/*
-  lab.js - JS/jQuery script for name sorting and DOM output
-  Author: Frida Aguilar 
-  Date: May 19 2025 
+//  Author: Frida Aguilar 
+  Date: May 20 2025 
 */
 
-// sortingHat function returns a house based on name length % 4
 function sortingHat(str) {
   const length = str.length;
   const mod = length % 4;
@@ -23,7 +20,6 @@ function sortingHat(str) {
   return house;
 }
 
-// click listener
 $("#button").click(function() {
   const name = $("#input").val();
   const house = sortingHat(name);
