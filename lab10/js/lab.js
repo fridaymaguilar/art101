@@ -39,10 +39,3 @@ const poemLines = [
   "Something screeched—",
   "And tackled me. Hard."
 ];
-
-// Click to show a random poetic line
-$("#make-convo").click(function() {
-  const randomIndex = Math.floor(Math.random() * poemLines.length);
-  const line = poemLines[randomIndex];
-  $("#output").append('<div class="text"><p>' + line + '</p></div>');
-});
