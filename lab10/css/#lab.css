@@ -1,17 +1,14 @@
 /* Here we can set styles for this lab page that we don't want to affect other pages */
 
-/* The period in a CSS selector selects an element by class, e.g., class="minor-section" */
-/* 🌲 Overall Page Style */
+
 body {
   background-color: #e6f2e1; /* soft moss green */
   font-family: 'Georgia', serif;
   color: #2f4f2f; /* deep forest green */
   text-align: center;
   padding: 30px;
-  background-image: url('https://www.transparenttextures.com/patterns/green-dust-and-scratches.png'); /* subtle forest texture */
 }
 
-/* 🌿 Header */
 h1 {
   font-size: 2.5em;
   color: #3b5e3b;
@@ -19,7 +16,6 @@ h1 {
   text-shadow: 1px 1px #cde9c5;
 }
 
-/* 🍂 Section Box */
 .minor-section {
   background-color: #f5f8f1;
   border: 2px solid #a4c8a4;
@@ -30,7 +26,6 @@ h1 {
   box-shadow: 0 4px 10px rgba(80, 100, 80, 0.2);
 }
 
-/* 🌱 Output Text Bubbles */
 .text p {
   display: inline-block;
   max-width: 80%;
@@ -46,7 +41,6 @@ h1 {
   text-align: center;
 }
 
-/* 🍃 Button */
 button#make-convo {
   margin-top: 20px;
   padding: 12px 25px;
@@ -65,7 +59,6 @@ button#make-convo:hover {
   transform: scale(1.05);
 }
 
-/* 🌾 Soft Animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
