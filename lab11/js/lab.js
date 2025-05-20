@@ -1,8 +1,7 @@
 /*
   lab.js - JS/jQuery script for name sorting and DOM output
-  Author: [Your Name]
-  Date: 5/19/2025
-  Requirements: jQuery
+  Author: Frida Aguilar 
+  Date: May 19 2025 
 */
 
 // Sorts the characters of a string in alphabetical order

@@ -10,6 +10,17 @@
 
 //make a box for the convo 
 
-// add the iput feild 
+// add the putton 
+
+//user types something in the text box
+
+// on click even listener 
 
 //make the button copy the text 
+    //find the box 
+
+    // and its contects
+
+    // copy the contects 
+    
+    // copy where 
