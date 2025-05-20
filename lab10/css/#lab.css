@@ -1,44 +1,49 @@
 /* Here we can set styles for this lab page that we don't want to affect other pages */
 
 /* The period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf0f5;
+  color: #4c0033;
+  padding: 20px;
+}
+
 .minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #f7a4d8;
-  background-color: #d391ff;
+  background-color: #fff0f5;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  border: 1px solid #ffc0cb;
+  box-shadow: 0 2px 5px rgba(255, 182, 193, 0.3);
 }
 
-h1 {
-  color: rgb(120, 28, 124);
-  font-size: 150%;
+#output {
+  margin-top: 15px;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  text-indent: 10px;
-  margin-left: 5px;
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: #ffb6c1;
+  color: white;
+  font-size: 0.9em;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-#content {
-  background-color: rgb(204, 231, 255);
-  width: 500px;
-  min-height: 300px;
-  padding: 10px;
-  border: 1px solid #d391ff;
-  font-size: 20px;
-}
-
-html {
-  cursor: url("img/fix.png"), auto;
-}
-
-img {
-  transform: translate(5px, 5px);
-}
-
-.special {
-  background-color: lavender;
-  border: 5px dotted red; /* changed from 50px to 5px */
-  color: pink;
+#make-convo {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 12px;
+  color: white;
   font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#make-convo:hover {
+  background-color: #ff1493;
 }
