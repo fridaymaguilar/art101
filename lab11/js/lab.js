@@ -4,9 +4,9 @@
   Date: May 19 2025 
 */
 
-// Sorts the characters of a string in alphabetical order
 function sortString(inputString) {
-  // Convert string to array, sort it, then rejoin
+
+
   return inputString.split('').sort().join('');
 }
 
@@ -15,7 +15,6 @@ $("#submit").click(function() {
   // Get value of input field
   const userName = $("#user-name").val();
 
-  // Sort the string
   const userNameSorted = sortString(userName);
 
   // Output the result
