@@ -1,36 +1,64 @@
-/* we can use a single css file to style all the files in our wwebsite */
-
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #cf98df;
+  background-color: #e6f2e1; 
+  font-family: 'Georgia', serif;
+  color: #2f4f2f; 
+  text-align: center;
+  padding: 30px;
 }
 
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: sans-serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
 h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
+  font-size: 2.5em;
+  color: #3b5e3b;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px #cde9c5;
 }
 
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #bde3fd;
-  background-color: #cea7db;
-}
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #e3b3ff;
-  background-color: #ffc2f2;
+  background-color: #f5f8f1;
+  border: 2px solid #a4c8a4;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  box-shadow: 0 4px 10px rgba(80, 100, 80, 0.2);
 }
+
+.text p {
+  display: inline-block;
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 12px 18px;
+  border-radius: 25px;
+  background: linear-gradient(to right, #b4e3b4, #94c794); 
+  color: #1e2e1e;
+  font-size: 1em;
+  font-style: italic;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  animation: fadeIn 0.4s ease-in-out;
+  text-align: center;
+}
+
+button#make-convo {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1em;
+  background-color: #5e8c61;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+button#make-convo:hover {
+  background-color: #4d7a51;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
