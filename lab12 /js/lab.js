@@ -5,27 +5,27 @@
 */
 
 // sortingHat function returns a house based on name length % 4
-function sortingHat(str) {
-  const length = str.length;
-  const mod = length % 4;
-  let house = "";
-
-  if (mod === 0) {
-    house = "Gryffindor";
-  } else if (mod === 1) {
-    house = "Ravenclaw";
-  } else if (mod === 2) {
-    house = "Hufflepuff";
-  } else {
-    house = "Slytherin";
-  }
-
-  return house;
+function sortingCollege(str) {
+  const colleges = [
+    "Cowell",
+    "Stevenson",
+    "Crown",
+    "Merrill",
+    "Porter",
+    "Kresge",
+    "Oakes",
+    "Rachel Carson",
+    "College Nine",
+    "College Ten"
+  ];
+  
+  const index = str.length % colleges.length;
+  return colleges[index];
 }
 
 // click listener
 $("#button").click(function() {
   const name = $("#input").val();
-  const house = sortingHat(name);
-  $("#output").append("<p>The Sorting Hat has sorted you into <strong>" + house + "</strong>!</p>");
+  const college = sortingCollege(name);
+  $("#output").append("<p>The UCSC Sorting Quiz has placed you in <strong>" + college + " College</strong>!</p>");
 });
