@@ -1,10 +1,9 @@
 /*
-  lab.js - JS/jQuery script for name sorting and DOM output
+  lab.js - JS/jQuery for UCSC College sorting 
   Author: Frida Aguilar 
-  Date: May 19 2025 
+  Date: May 21 2025 
 */
 
-// sortingHat function returns a house based on name length % 4
 function sortingCollege(str) {
   const colleges = [
     "Cowell",
