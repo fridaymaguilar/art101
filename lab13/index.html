@@ -2,26 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lab 13</title>
+  <title>Lab 13: Loops</title>
   <link rel="stylesheet" type="text/css" href="../css/site.css">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="js/lab.js" defer></script>
 </head>
 <body>
 
-  <div class="minor-section" id="challenge">
+  <div id="content">
+    <h1>Lab 13: Loops</h1>
+
     <h2>Challenge</h2>
-    <p>Use JavaScript loops to print numbers 1–200 and output Fizz, Buzz, and Boom for multiples of 3, 5, and 7.</p>
-  </div>
+    <p>Working with your partner, experiment with loops. Customize your loop output based on number factors.</p>
 
-  <div class="minor-section" id="problems">
     <h2>Problems</h2>
-    <p>No major problems so far. Used console.log to test logic!</p>
-  </div>
+    <p>How can we make the output print in the output div? All at once, or as we loop?</p>
 
-  <div class="minor-section" id="results">
     <h2>Results</h2>
+    <p>Here is the output of my humble program.</p>
+
+    <h2>FizzBuzzBoom!</h2>
+
+    <div id="controls">
+      <p>Where should we stop? <input type="number" id="max" value="100"></p>
+
+      <table>
+        <tr><th>Factor</th><th>Prints what?</th></tr>
+        <tr><td><input type="number" class="factor" value="3"></td><td><input type="text" class="word" value="Fizz"></td></tr>
+        <tr><td><input type="number" class="factor" value="5"></td><td><input type="text" class="word" value="Buzz"></td></tr>
+        <tr><td><input type="number" class="factor" value="7"></td><td><input type="text" class="word" value="Boom"></td></tr>
+        <tr><td><input type="number" class="factor" value="8"></td><td><input type="text" class="word" value="Bang"></td></tr>
+      </table>
+
+      <button id="run">Run</button>
+    </div>
+
+    <h3>Output</h3>
     <div id="output"></div>
+
+    <div class="linkbox">
+      <a class="homelink" href="../index.html">&lt;&lt; Back home</a>
+      <a class="sourcelink" href="js/lab.js" target="source">JavaScript Source &gt;</a>
+    </div>
   </div>
 
 </body>
