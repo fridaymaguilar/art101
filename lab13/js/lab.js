@@ -1,27 +1,30 @@
-//  Author: Frida Aguilar 
-  Date: May 20 2025 
-*/
+/*
+ * Author: Your Name
+ * Created: 5/26/2025
+ * Lab 13 - Loops: FizzBuzzBoom
+ * This script prints numbers from 1 to 200 and labels them based on whether
+ * they're divisible by 3 (Fizz), 5 (Buzz), and/or 7 (Boom).
+ */
 
-function sortingHat(str) {
-  const length = str.length;
-  const mod = length % 4;
-  let house = "";
+function fizzBuzzBoom() {
+  let outputStr = "";
 
-  if (mod === 0) {
-    house = "Gryffindor";
-  } else if (mod === 1) {
-    house = "Ravenclaw";
-  } else if (mod === 2) {
-    house = "Hufflepuff";
-  } else {
-    house = "Slytherin";
+  for (let i = 1; i <= 200; i++) {
+    let str = "";
+
+    if (i % 3 === 0) str += "Fizz";
+    if (i % 5 === 0) str += "Buzz";
+    if (i % 7 === 0) str += "Boom";
+
+    if (str === "") str = i;
+
+    outputStr += `<p>${str}</p>`;
   }
 
-  return house;
+  $("#output").html(outputStr);
 }
 
-$("#button").click(function() {
-  const name = $("#input").val();
-  const house = sortingHat(name);
-  $("#output").append("<p>The Sorting Hat has sorted you into <strong>" + house + "</strong>!</p>");
+// Call the function when the page is ready
+$(document).ready(function() {
+  fizzBuzzBoom();
 });
