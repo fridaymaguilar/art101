@@ -1,66 +1,29 @@
-
 body {
-  background-color: #e6f2e1; 
-  font-family: 'Georgia', serif;
-  color: #2f4f2f; 
-  text-align: center;
-  padding: 30px;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #3b5e3b;
-  margin-bottom: 15px;
-  text-shadow: 1px 1px #cde9c5;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 20px;
 }
 
 .minor-section {
-  background-color: #f5f8f1;
-  border: 2px solid #a4c8a4;
-  border-radius: 12px;
-  padding: 20px;
-  max-width: 700px;
-  margin: 0 auto 30px;
-  box-shadow: 0 4px 10px rgba(80, 100, 80, 0.2);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
 }
 
-.text p {
-  display: inline-block;
-  max-width: 80%;
-  margin: 10px auto;
-  padding: 12px 18px;
-  border-radius: 25px;
-  background: linear-gradient(to right, #b4e3b4, #94c794); 
-  color: #1e2e1e;
-  font-size: 1em;
-  font-style: italic;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  animation: fadeIn 0.4s ease-in-out;
-  text-align: center;
+#output p {
+  margin: 5px 0;
+  font-weight: bold;
 }
 
-button#make-convo {
-  margin-top: 20px;
-  padding: 12px 25px;
-  font-size: 1em;
-  background-color: #5e8c61;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+#output p:nth-child(3n) {
+  color: #e91e63;
 }
-
-button#make-convo:hover {
-  background-color: #4d7a51;
-  transform: scale(1.05);
+#output p:nth-child(5n) {
+  color: #2196f3;
 }
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+#output p:nth-child(7n) {
+  color: #4caf50;
 }
-🍁 Optional Add-On:
-
-
