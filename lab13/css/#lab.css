@@ -1,29 +1,35 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  background-color: #fff9f0;
   color: #333;
   padding: 20px;
 }
 
-.minor-section {
-  border: 2px solid #ccc;
-  border-radius: 10px;
+#controls {
+  background-color: #fbe4c2;
   padding: 15px;
+  border-radius: 8px;
   margin-bottom: 20px;
-  background-color: #ffffff;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+table td, table th {
+  padding: 5px;
+  text-align: left;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 #output p {
-  margin: 5px 0;
+  width: 20%;
+  margin: 0;
   font-weight: bold;
-}
-
-#output p:nth-child(3n) {
-  color: #e91e63;
-}
-#output p:nth-child(5n) {
-  color: #2196f3;
-}
-#output p:nth-child(7n) {
-  color: #4caf50;
 }

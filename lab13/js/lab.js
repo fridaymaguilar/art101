@@ -1,30 +1,38 @@
-/*
- * Author: Your Name
- * Created: 5/26/2025
- * Lab 13 - Loops: FizzBuzzBoom
- * This script prints numbers from 1 to 200 and labels them based on whether
- * they're divisible by 3 (Fizz), 5 (Buzz), and/or 7 (Boom).
- */
+// Author: Frida Aguilar 
+// May 26 2025 
+// 
 
-function fizzBuzzBoom() {
-  let outputStr = "";
+function runFizzBuzzBoom() {
+ let max = parseInt($("#max").val());
+ let factors = [];
 
-  for (let i = 1; i <= 200; i++) {
-    let str = "";
+ $(".factor").each(function(index) {
+   let factorVal = parseInt($(this).val());
+   let wordVal = $(".word").eq(index).val();
+   if (!isNaN(factorVal) && wordVal) {
+     factors.push({ factor: factorVal, word: wordVal });
+   }
+ });
 
-    if (i % 3 === 0) str += "Fizz";
-    if (i % 5 === 0) str += "Buzz";
-    if (i % 7 === 0) str += "Boom";
+ let output = "";
 
-    if (str === "") str = i;
+ for (let i = 0; i <= max; i++) {
+   let str = "";
 
-    outputStr += `<p>${str}</p>`;
-  }
+   factors.forEach(obj => {
+     if (i % obj.factor === 0) {
+       str += obj.word;
+     }
+   });
 
-  $("#output").html(outputStr);
+   if (str === "") str = i;
+
+   output += `<p>${str}!</p>`;
+ }
+
+ $("#output").html(output);
 }
 
-// Call the function when the page is ready
 $(document).ready(function() {
-  fizzBuzzBoom();
+ $("#run").click(runFizzBuzzBoom);
 });
