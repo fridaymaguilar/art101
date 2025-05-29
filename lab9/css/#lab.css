@@ -1,44 +1,39 @@
 /* Here we can set styles for this lab page that we don't want to affect other pages */
 
 /* The period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9f0;
+  color: #333;
+  padding: 20px;
+}
+
+#controls {
+  background-color: #fbe4c2;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
   margin-bottom: 10px;
-  border: solid 1px #f7a4d8;
-  background-color: #d391ff;
 }
 
-h1 {
-  color: rgb(120, 28, 124);
-  font-size: 150%;
+table td, table th {
+  padding: 5px;
+  text-align: left;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  text-indent: 10px;
-  margin-left: 5px;
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-#content {
-  background-color: rgb(204, 231, 255);
-  width: 500px;
-  min-height: 300px;
-  padding: 10px;
-  border: 1px solid #d391ff;
-  font-size: 20px;
-}
-
-html {
-  cursor: url("img/fix.png"), auto;
-}
-
-img {
-  transform: translate(5px, 5px);
-}
-
-.special {
-  background-color: lavender;
-  border: 5px dotted red; /* changed from 50px to 5px */
-  color: pink;
+#output p {
+  width: 20%;
+  margin: 0;
   font-weight: bold;
 }
