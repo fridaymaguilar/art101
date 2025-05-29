@@ -3,7 +3,7 @@ body {
   background-color: #fff9f0;
   color: #333;
   padding: 20px;
-  cursor: url('fix.png'), auto;
+  cursor: url('fix.png'), auto!important;
 }
 
 #controls {
