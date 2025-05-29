@@ -1,6 +1,5 @@
 // Author: Frida Aguilar 
 // May 26 2025 
-// 
 
 function runFizzBuzzBoom() {
  let max = parseInt($("#max").val());
