@@ -38,3 +38,5 @@ table td, table th {
 #strawberry-cursor {
   cursor: url('fix.png'), auto;
 }
+
+cursor: url('https://upload.wikimedia.org/wikipedia/commons/d/de/POL_apple.jpg') 0 0, auto;
