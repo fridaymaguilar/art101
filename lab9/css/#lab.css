@@ -37,3 +37,10 @@ table td, table th {
   margin: 0;
   font-weight: bold;
 }
+
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+}
